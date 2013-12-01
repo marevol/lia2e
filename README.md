@@ -1,26 +1,26 @@
-Welcome to Lucene in Action (2nd Edition)!
+# Welcome to Lucene in Action (2nd Edition)!
 
 This source code distribution is a companion to the
 Lucene in Action book available from Manning Publications.
 To purchase an electronic or printed copy of the book,
 visit http://www.manning.com/hatcher3
 
-R E Q U I R E M E N T S
------------------------
+## R E Q U I R E M E N T S
+
   * JDK 1.6+
   * Ant 1.7+ (to run the automated examples)
   * JUnit 3.8.1+
     - junit.jar should be in ANT_HOME/lib
 
-I N S T A L L A T I O N
------------------------
+## I N S T A L L A T I O N
+
 You've already unpacked the distribution, since you're reading this 
 file. You may now run most of the code using Ant.  We recommend
 that you open the code in your favorite editor or IDE to follow how 
 the examples work.
 
-R U N N I N G
--------------
+## R U N N I N G
+
 We recommend you run the examples using the provided Ant build file.
 
 However, you may run the examples without Ant with some
@@ -31,8 +31,8 @@ command-line arguments and JVM system properties - all of which the
 Ant build file takes care of.  Reference the build file and source
 for these configuration details.
 
-R U N N I N G     W I T H    A N T
-----------------------------------
+## R U N N I N G     W I T H    A N T
+
 The code is primarily JUnit test cases, with some Java main()
 programs also.  All the JUnit test cases and several of the main() 
 programs are easily run using the Ant build.xml file provided.
@@ -85,26 +85,24 @@ This information is followed by a prompt requiring you to press
 return to continue.  Additionally, several examples require user
 input, with defaults shown in brackets.
 
-T I P S
--------
+## T I P S
+
   * To run Ant with less decoration, use the -e switch.
 
   * To run a single test case:
        ant test -Dtest=<name of test without "Test" suffix>
        example: ant test -Dtest=QueryParser
 
-  * To bypass the "Press return to continue..." prompts, add
-    the -Dnopause=true command-line switch.
+  * To bypass the "Press return to continue..." prompts, add the -Dnopause=true command-line switch.
 
-  * Run "ant clean" to force a rebuild of the code and test
-    indexes.
+  * Run "ant clean" to force a rebuild of the code and test indexes.
 
   * Follow along with the examples using the source code and the
     book itself.  The code was written for the book and makes much
     more sense in context with elaborate explanations.
 
-K N O W N   I S S U E S
------------------------
+## K N O W N   I S S U E S
+
   * Performance tests may fail if your system is heavily loaded at
     the time or has insufficient RAM or processor/disk speed
   
@@ -112,8 +110,8 @@ K N O W N   I S S U E S
     times-out its execution.  However, the example of running 
     SearchClient succeeds successfully before this time-out.
 
-C O N T A C T    I N F O R M A T I O N
---------------------------------------
+## C O N T A C T    I N F O R M A T I O N
+
 Manning provides an Author Online forum accessible from:
 	http://www.manning.com/hatcher3
 
